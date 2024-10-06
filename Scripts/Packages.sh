@@ -22,12 +22,10 @@ UPDATE_PACKAGE() {
 
 #UPDATE_PACKAGE "包名" "项目地址" "项目分支" "pkg/name，可选，pkg为从大杂烩中单独提取包名插件；name为重命名为包名"
 
-UPDATE_PACKAGE "luci-app-gecoosac" "lwb1978/openwrt-gecoosac" "main"
 
 
-if [[ $WRT_BRANCH == *"23.05"* ]]; then
-	
-fi
+
+
 
 #更新软件包版本
 UPDATE_VERSION() {
